@@ -16,7 +16,7 @@ st.markdown("This dashboard explores the relationships between study habits, att
 def load_data():
     try:
         # Using a subset as per your original code
-        df = pd.read_csv('C:/pro/students_performance.csv')
+        df = pd.read_csv('students_performance.csv')
         return df
     except FileNotFoundError:
         st.error("File not found! Please check the file path.")
