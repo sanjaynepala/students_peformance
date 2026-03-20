@@ -1,0 +1,6 @@
+Requirements:-
+
+1.streamlit
+2.pandas
+3.plotly express
+4.Plotly Graph objects
